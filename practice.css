@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150vh;
+    height: 100vh;
+    background-color: #333;
+    font-family: sans-serif;
+}
+
+img{
+    width: 200px;
+}
+.pupop{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 80vh;
+    height: 60vh;
+    background-color: aliceblue;
+    visibility: hidden;
+    transition: 2s;
+}
+
+.pupop{
+    visibility: visible;
+    top: 50%;
+}
+button{
+    width: 100px;
+    height: 50px;
+    margin-top: 50%;
+}
+#ok{
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 2px 2px -1px;
+    border: none;
+    background-color: green;
+    font-weight: 900;
+    margin-left: 40%;
+
+}
+h2{
+    margin-left: 30%;
+}

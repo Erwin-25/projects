@@ -1,0 +1,61 @@
+body{
+    background-color: #333;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+img{
+    position: absolute;
+    width: 100px;
+    margin-top: -70%;
+}
+.pupop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vh;
+    height: 50vh;
+    background-color: white;
+    color: #333;
+    font-weight: 500;
+    border-radius: 10px;
+    visibility: hidden;
+
+}
+.buksan{
+    visibility: visible;
+   transform: rotate(360deg);
+   transition: 2s;
+}
+.pupop h2{
+    position: absolute;
+    margin-top: -5%;
+    
+}
+.pupop p{
+    font-weight: 600;
+}
+.btn{
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 12%;
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(10, 237, 10);
+    border: none;
+   
+}
+.ok{
+    position: absolute;
+    margin-top: 20%;
+    background-color: rgb(26, 239, 26);
+    border: none;
+    border-radius: 2px;
+
+}
+.pupop h2{
+    margin-top: -20%;
+}
