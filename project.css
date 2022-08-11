@@ -1,61 +1,109 @@
 body{
-    background-color: #333;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: sans-serif;
-}
-img{
-    position: absolute;
-    width: 100px;
-    margin-top: -70%;
-}
-.pupop{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 60vh;
-    height: 50vh;
-    background-color: white;
-    color: #333;
-    font-weight: 500;
-    border-radius: 10px;
-    visibility: hidden;
+    background-color: rgb(236, 232, 232);
+    margin: 0;
+    padding: 0;
 
 }
-.buksan{
-    visibility: visible;
-   transform: rotate(360deg);
-   transition: 2s;
-}
-.pupop h2{
+.text{
     position: absolute;
-    margin-top: -5%;
-    
+    margin-left: 10%;
+    margin-top: 15%;
+
 }
-.pupop p{
-    font-weight: 600;
+.text h1{
+    font-weight: 700;
+   color: blue;
+   font-size: xx-large;
 }
-.btn{
+.box{
     position: absolute;
-    margin-top: 30%;
-    margin-left: 12%;
-    width: 100px;
-    height: 50px;
-    border-radius: 30px;
-    background-color: rgb(10, 237, 10);
+    width: 50vh;
+    height: 50vh;
+    box-shadow: 10px 10px 10px -14px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+input{
+    width: 40vh;
+    padding: 10px;
+    margin: 10px;
     border: none;
+    box-shadow: 10px 10px 10px -14px gray;
+   border: 10px;
+    border-radius: 5px;
+}
+button{
+    width: 40vh;
+    padding: 8px;
+    font-weight: 700;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+a{
+    padding: 10px;
+    text-decoration: none;
+}
+.create{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    margin-top: 2rem;
+}
+.sodo::after{
+    position: absolute;
+    content: '';
+    width: 15vh;
+    height: 1px;
+    background-color: rgb(172, 167, 167);
+    margin-top: 12%;
+    margin-left: -55%;
+
    
 }
-.ok{
+.or{
     position: absolute;
-    margin-top: 20%;
-    background-color: rgb(26, 239, 26);
-    border: none;
-    border-radius: 2px;
+    margin-top: 8.5rem;
+    cursor: pointer;
+}
+.or::after{
+    position: absolute;
+    content: '';
+    width: 15vh;
+    height: 1px;
+    background-color: rgb(172, 167, 167);
+    margin-top: 71%;
+    margin-left: 60%;
+
 
 }
-.pupop h2{
-    margin-top: -20%;
-}
+@media only screen and (max-width: 1024px) {
+    .box {
+      background-color: lightblue;
+      margin-top: 50%;
+      margin-left: 10%;
+      
+    }
+  }
+  @media only screen and (max-width: 1024px) {
+    .text {
+    position: absolute;
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 13rem;
+      z-index: 1;
+      
+    
+    }
+  }
+  
